@@ -1,5 +1,6 @@
 <template>
-  <header class="header">
+  <div>
+    <header class="header">
     <div class="container header-inner">
       <div class="brand">
         <div class="logo-circle">
@@ -137,11 +138,18 @@
       <p class="footer-credit">Created with <strong>LOVE</strong></p>
     </div>
   </footer>
+  <WhatsappButton />
+  </div>
 </template>
 
 <script>
+import WhatsappButton from './components/WhatsAppButton.vue'
+
 export default {
   name: "App",
+  components : {
+    WhatsappButton
+  },
   data() {
     return {
       menuOpen: false,

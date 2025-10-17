@@ -254,11 +254,14 @@
       </div>
     </section>
 
+
+
     <!-- <router-view /> -->
   </div>
 </template>
 
 <script>
+
 export default {
   name: "Home",
   data() {
@@ -270,22 +273,22 @@ export default {
 
       clients: [
         {
-          img: "../public/happy-clients/WhatsApp Image 2025-09-15 at 8.48.18 PM (1).jpeg",
+          img: "../public/happy-clients/client1.jpeg",
         },
         {
-          img: "../public/happy-clients/WhatsApp Image 2025-09-15 at 8.48.18 PM (2).jpeg",
+          img: "../public/happy-clients/client2.jpeg",
         },
         {
-          img: "../public/happy-clients/WhatsApp Image 2025-09-15 at 8.48.18 PM.jpeg",
+          img: "../public/happy-clients/client3.jpeg",
         },
         {
-          img: "../public/happy-clients/WhatsApp Image 2025-09-15 at 8.48.19 PM.jpeg",
+          img: "../public/happy-clients/client4.jpeg",
         },
         {
-          img: "../public/happy-clients/WhatsApp Image 2025-09-15 at 8.48.20 PM (1).jpeg",
+          img: "../public/happy-clients/client5.jpeg",
         },
         {
-          img: "../public/happy-clients/WhatsApp Image 2025-09-15 at 8.48.36 PM.jpeg",
+          img: "../public/happy-clients/client6.jpeg",
         },
       ],
 
