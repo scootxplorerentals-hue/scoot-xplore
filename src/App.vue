@@ -21,7 +21,7 @@
         <router-link to="/" class="nav-link" @click="closeMenu"
           >Home</router-link
         >
-        <router-link to="/tours" class="nav-link" @click="closeMenu"
+        <router-link to="/bike-rentals" class="nav-link" @click="closeMenu"
           >Bike tours</router-link
         >
         <router-link to="/contact" class="nav-link" @click="closeMenu"

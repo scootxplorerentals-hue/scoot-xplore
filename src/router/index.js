@@ -10,6 +10,7 @@ import BikingRules from "../views/BikingRules.vue";
 import RentalTerms from "../views/RentalTerms.vue";
 import PrivacyPolicy from "../views/PrivacyPolicy.vue";
 import NotFound from "../views/NotFound.vue";
+import BikeRentals from "../views/BikeRentals.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -20,7 +21,7 @@ const routes = [
   { path: "/biking-rules", name: "BikingRules", component: BikingRules },
   { path: "/rental-terms", name: "RentalTerms", component: RentalTerms },
   { path: "/privacy-policy", name: "PrivacyPolicy", component: PrivacyPolicy },
-
+{ path: "/bike-rentals", name: "BikeRentals", component: BikeRentals },
   // Catch-all for 404s
   { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFound },
 ];
