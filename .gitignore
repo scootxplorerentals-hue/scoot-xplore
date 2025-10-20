@@ -1,3 +1,14 @@
+node_modules/
+dist/
+.env
+.DS_Store
+/.idea/
+/.vscode/
+.vite/
+npm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 echo "node_modules
 dist
 .vscode
