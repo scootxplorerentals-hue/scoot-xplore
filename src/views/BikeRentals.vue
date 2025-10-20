@@ -5,7 +5,7 @@
         <div class="cards">
           <!-- Yamaha GT 125 -->
           <div class="card">
-            <img src="/public/bikes/Yamaha GT 125.jpg" alt="Yamaha GT 125" />
+            <img src="/bikes/Yamaha GT 125.jpg" alt="Yamaha GT 125" />
             <div class="card-body">
               <h3 class="card-title">Yamaha GT 125</h3>
               <p class="card-sub">Per Day: 350฿</p>
@@ -17,7 +17,7 @@
           <!-- Honda Click 125 -->
           <div class="card">
             <img
-              src="/public/bikes/Honda Click 125.webp"
+              src="/bikes/Honda Click 125.webp"
               alt="Honda Click 125"
             />
             <div class="card-body">
@@ -31,7 +31,7 @@
           <!-- Yamaha Aerox 155 -->
           <div class="card">
             <img
-              src="/public/bikes/Yamaha Aerox 155.jpg"
+              src="/bikes/Yamaha Aerox 155.jpg"
               alt="Yamaha Aerox 155"
             />
             <div class="card-body">
@@ -45,7 +45,7 @@
           <!-- Yamaha Nmax 155 -->
           <div class="card">
             <img
-              src="/public/bikes/Yamaha Nmax 155.jpg"
+              src="/bikes/Yamaha Nmax 155.jpg"
               alt="Yamaha Nmax 155"
             />
             <div class="card-body">
@@ -58,7 +58,7 @@
 
           <!-- Honda ADV 160 -->
           <div class="card">
-            <img src="/public/bikes/Honda ADV 160.webp" alt="Honda ADV 160" />
+            <img src="/bikes/Honda ADV 160.webp" alt="Honda ADV 160" />
             <div class="card-body">
               <h3 class="card-title">Honda ADV 160</h3>
               <p class="card-sub">Per Day: 450฿</p>
@@ -69,7 +69,7 @@
 
           <!-- Honda PCX 160 -->
           <div class="card">
-            <img src="/public/bikes/Honda PCX 160.avif" alt="Honda PCX 160" />
+            <img src="/bikes/Honda PCX 160.avif" alt="Honda PCX 160" />
             <div class="card-body">
               <h3 class="card-title">Honda PCX 160</h3>
               <p class="card-sub">Per Day: 450฿</p>
@@ -80,7 +80,7 @@
 
           <!-- GPX Demon 200GR -->
           <div class="card">
-            <img src="/public/bikes/GPX Demon 200.webp" alt="GPX Demon 200GR" />
+            <img src="/bikes/GPX Demon 200.webp" alt="GPX Demon 200GR" />
             <div class="card-body">
               <h3 class="card-title">GPX Demon 200GR</h3>
               <p class="card-sub">Per Day: 500฿</p>
@@ -91,7 +91,7 @@
 
           <!-- Honda CRF 250 -->
           <div class="card">
-            <img src="/public/bikes/Honda CRF 250.jpg" alt="Honda CRF 250" />
+            <img src="/bikes/Honda CRF 250.jpg" alt="Honda CRF 250" />
             <div class="card-body">
               <h3 class="card-title">Honda CRF 250</h3>
               <p class="card-sub">Per Day: 700฿</p>

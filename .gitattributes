@@ -1,0 +1,29 @@
+# Auto-detect text files and normalize them in the repository
+* text=auto
+
+# Force common text file types to use LF in the repo (prevents platform diffs)
+*.js     text eol=lf
+*.jsx    text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.html   text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+
+# Mark binary files so Git won't attempt to normalize them
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.avif   binary
+*.ico    binary
+*.zip    binary
+
+# Ensure node_modules and build artifacts aren't normalized here (still ignore)
+node_modules/** -text
+dist/** -text

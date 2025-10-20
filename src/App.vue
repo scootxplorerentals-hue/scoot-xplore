@@ -7,7 +7,7 @@
           <router-link to="/">
             <img
               class="logo-img"
-              src="/public/images/IMG_0254-removebg-preview.png"
+              src="/images/IMG_0254-removebg-preview.png"
               alt="ScootXplore Logo"
             />
           </router-link>
@@ -149,6 +149,17 @@ export default {
   name: "App",
   components : {
     WhatsappButton
+  },
+  mounted() {
+    // Ensure we start at the top of the page on reload
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0);
+
+      // Also handle bfcache/pageshow restores in some browsers
+      window.addEventListener('pageshow', (event) => {
+        if (event.persisted) window.scrollTo(0, 0);
+      });
+    }
   },
   data() {
     return {

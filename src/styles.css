@@ -144,7 +144,7 @@ body{
 
 /* hero */
 .hero{
-  background-image: url('../public/bikes/GPX\ Demon\ 200.webp');
+  background-image: url('../bikes/GPX\ Demon\ 200.webp');
   background-size:cover;
   background-position:center;
   padding:100px 0;
