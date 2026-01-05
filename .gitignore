@@ -1,0 +1,32 @@
+" > .gitignore
+node_modules/
+dist/
+.env
+.DS_Store
+/.idea/
+/.vscode/
+.vite/
+npm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+
+# local env files
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Build outputs
+build/
+
+# Ignore generated public assets if present
+/public/happy-clients/
