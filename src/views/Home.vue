@@ -72,7 +72,7 @@
           <div class="card">
             <img src="../../public/bikes/GPX Drone 150 .jpeg" alt="Yamaha GT 125" />
             <div class="card-body">
-              <h3 class="card-title">GPX Drone 150 </h3>
+              <h3 class="card-title">GPX Drone 150</h3>
               <p class="card-sub">Per Day: 430฿</p>
               <p class="card-sub">Per Week: 2500฿</p>
               <p class="card-sub">Per Month: 5000฿</p>
