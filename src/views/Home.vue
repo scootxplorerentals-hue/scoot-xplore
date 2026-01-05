@@ -295,6 +295,8 @@ export default {
       searchQuery: "",
 
       clients: [
+      // changed image paths
+      
         { img: "/happy-clients/client1.jpeg" },
         { img: "/happy-clients/client2.jpeg" },
         { img: "/happy-clients/client3.jpeg" },
